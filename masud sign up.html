@@ -1,0 +1,46 @@
+<html>
+<head>
+<style>
+body {
+  background-color: palegreen;
+}
+</style>
+<script>
+function myFunction()
+{
+var x = document.getElementById("fname").value;
+document.getElementById("fname").value=x.toUpperCase();
+}
+</script>
+</head>
+<body>
+Enter your first name:<input type="text" id="fname" onkeyup="myFunction()">
+<br>
+<br>
+Enter your last name:<input type="text" id="fname" onkeyup="myFunction()">
+<br>
+<br>
+<form>
+Email Id: <input type="text" name="email id" size="15" maxlength="15" value="" placeholder="enter your Email Id">
+<br>
+<br>
+Address: <input type="text" name="" size="15" maxlength="15" value="" placeholder="enter your Address">
+<br>
+<br>
+enter password: <input type="text" name="psw" size="10" maxlength="10" value="" placeholder="enter password">
+<br>
+<br>
+confirm password: <input type="text" name="psw" size="10" maxlength="10" value="" placeholder="confirm password">
+<br>
+<br>
+<input type="submit" name="s1" value="Submit">
+<input type="reset" name="r1" value="reset">
+</form>
+<h1>OR</h1>
+<a href="https://en-gb.facebook.com/login/"> <h2 style="color:white;">Click To Log In With Facebook</h2> </a>
+
+<a href="https://twitter.com/"> <h2 style="color:babyblue;">Click To Log In With Twitter</h2> </a>
+
+<a href="https://accounts.google.com/signin/v2/identifier?hl=en&continue=https%3A%2F%2Fmail.google.com%2Fmail&service=mail&flowName=GlifWebSignIn&flowEntry=AddSession"> <h2 style="color:red;">Click To Log In With Gmail</h2> </a>
+</body>
+</html>
